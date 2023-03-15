@@ -1,5 +1,5 @@
 {
-  "name": "react-split-pane",
+  "name": "@soof-golan/react-split-pane",
   "description": "React split-pane component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -12,14 +12,14 @@
   "version": "0.1.92",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomkp/react-split-pane"
+    "url": "https://github.com/soof-golan/react-split-pane"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomkp/react-split-pane"
+    "url": "https://github.com/soof-golan/react-split-pane/issues"
   },
-  "homepage": "https://github.com/tomkp/react-split-pane",
-  "author": "tomkp <tom@tomkp.com>",
+  "homepage": "https://github.com/soof-golan/react-split-pane",
+  "author": "Soog Golan <hi@soofgolan.com>",
   "keywords": [
     "react",
     "react-component",
@@ -55,7 +55,7 @@
     "react-style-proptype": "^3.2.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
+    "@babel/core": "^7.21.3",
     "@babel/plugin-transform-modules-commonjs": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
@@ -70,7 +70,7 @@
     "babelify": "^10.0.0",
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
-    "coveralls": "^3.0.7",
+    "coveralls": "^3.1.1",
     "cross-env": "^7.0.0",
     "eslint": "^6.6.0",
     "eslint-config-fbjs": "^3.1.1",
@@ -97,10 +97,10 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "standard-version": "^7.0.0"
+    "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0-0",
-    "react-dom": "^16.0.0-0"
+    "react": ">=16 && <19",
+    "react-dom": ">=16 && <19"
   }
 }
